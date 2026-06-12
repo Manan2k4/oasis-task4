@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#FAFAFA">
+
+    <TextView
+        android:id="@+id/txtProgressIndicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question: 1/5"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="#888888"
+        android:layout_marginTop="16dp"
+        android:textAllCaps="true"/>
+
+    <TextView
+        android:id="@+id/txtQuestionText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Loading general knowledge question context here..."
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#222222"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="32dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnOptionA"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Option A"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:textColor="#333333"
+            android:backgroundTint="#EFEFEF"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:id="@+id/btnOptionB"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Option B"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:textColor="#333333"
+            android:backgroundTint="#EFEFEF"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:id="@+id/btnOptionC"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Option C"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:textColor="#333333"
+            android:backgroundTint="#EFEFEF"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:id="@+id/btnOptionD"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Option D"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:textColor="#333333"
+            android:backgroundTint="#EFEFEF"
+            android:layout_marginBottom="12dp"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnNextQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Submit Answer"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="@android:color/black"
+        android:layout_marginBottom="16dp"
+        android:enabled="false"/>
+
+</LinearLayout>
